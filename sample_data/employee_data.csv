@@ -1,0 +1,11 @@
+id,name,department,salary,age,join_year
+1,Alice,Engineering,95000,28,2021
+2,Bob,Marketing,72000,34,2019
+3,Carol,Engineering,105000,31,2020
+4,David,HR,58000,45,2017
+5,Eve,Marketing,81000,29,2022
+6,Frank,Engineering,99000,38,2018
+7,Grace,HR,61000,52,2015
+8,Henry,Marketing,76000,41,2016
+9,Iris,Engineering,112000,27,2023
+10,Jack,HR,55000,36,2020
