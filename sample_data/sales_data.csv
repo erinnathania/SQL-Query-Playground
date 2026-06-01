@@ -1,0 +1,16 @@
+order_id,customer_name,product,category,quantity,unit_price,order_date,region,sales_rep
+1,Alice Johnson,Laptop,Electronics,2,999.99,2023-01-15,North,Sarah
+2,Bob Smith,Chair,Furniture,5,149.99,2023-01-18,South,Mike
+3,Carol White,Phone,Electronics,1,699.99,2023-02-02,East,Sarah
+4,David Brown,Desk,Furniture,2,299.99,2023-02-14,North,James
+5,Eve Davis,Laptop,Electronics,3,999.99,2023-02-20,West,Mike
+6,Frank Miller,Monitor,Electronics,4,399.99,2023-03-05,South,Sarah
+7,Grace Wilson,Chair,Furniture,10,149.99,2023-03-12,East,James
+8,Henry Moore,Phone,Electronics,2,699.99,2023-03-18,North,Mike
+9,Iris Taylor,Desk,Furniture,1,299.99,2023-04-01,West,Sarah
+10,Jack Anderson,Laptop,Electronics,1,999.99,2023-04-10,South,James
+11,Karen Thomas,Monitor,Electronics,3,399.99,2023-04-22,East,Mike
+12,Leo Jackson,Chair,Furniture,7,149.99,2023-05-03,North,Sarah
+13,Mia Harris,Phone,Electronics,4,699.99,2023-05-15,West,James
+14,Noah Martin,Desk,Furniture,3,299.99,2023-05-28,South,Mike
+15,Olivia Garcia,Laptop,Electronics,2,999.99,2023-06-10,East,Sarah

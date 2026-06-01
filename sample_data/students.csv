@@ -1,0 +1,16 @@
+student_id,name,major,year,gpa,credits,tuition_paid,scholarship,advisor
+1,Alice Chen,Computer Science,3,3.85,90,15000,Yes,Dr. Smith
+2,Bob Kumar,Mathematics,2,3.20,60,12000,No,Dr. Jones
+3,Carol Park,Computer Science,4,3.95,120,15000,Yes,Dr. Smith
+4,David Lee,Physics,1,2.80,30,12000,No,Dr. Brown
+5,Eve Zhang,Mathematics,3,3.60,90,12000,Yes,Dr. Jones
+6,Frank Osei,Computer Science,2,3.10,60,15000,No,Dr. Smith
+7,Grace Kim,Physics,4,3.75,120,12000,Yes,Dr. Brown
+8,Henry Patel,Mathematics,1,2.95,30,12000,No,Dr. Jones
+9,Iris Wang,Computer Science,3,3.50,90,15000,Yes,Dr. Smith
+10,Jack Nguyen,Physics,2,3.30,60,12000,No,Dr. Brown
+11,Karen Ali,Computer Science,4,3.90,120,15000,Yes,Dr. Smith
+12,Leo Santos,Mathematics,3,2.75,90,12000,No,Dr. Jones
+13,Mia Robinson,Physics,1,3.15,30,12000,No,Dr. Brown
+14,Noah Williams,Computer Science,2,3.40,60,15000,Yes,Dr. Smith
+15,Olivia Brown,Mathematics,4,3.65,120,12000,Yes,Dr. Jones
