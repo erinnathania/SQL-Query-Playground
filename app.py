@@ -25,7 +25,7 @@ if uploaded_file is not None:
     query = st.text_area("Type your SQL query below:", 
                             value="SELECT * FROM data LIMIT 10;")
 
-    if st.button("▶️ Run Query"):
+    if st.button("Run Query"):
         try:
             result_df = pd.read_sql(query, conn)
             
@@ -38,9 +38,17 @@ if uploaded_file is not None:
             if len(numeric_cols) >= 1:
                 st.subheader("Chart")
                 fig, ax = plt.subplots()
+
                 x_col = result_df.columns[0]
                 y_col = numeric_cols[0]
+
+                ax.bar(result_df[x_col], result_df[y_col], color='skyblue')
+                ax.set_title(y_col + " by " + x_col)
+                ax.set_xlabel(x_col)
+                ax.set_ylabel(y_col)
+                plt.xticks(rotation=45, ha='right')
                 result_df.plot(kind="bar", x=x_col, y=y_col, ax=ax)
+                
                 st.pyplot(fig)
             else:
                 st.info("No numeric columns to chart — showing table only.")
