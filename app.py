@@ -33,11 +33,18 @@ if uploaded_file is not None:
             st.dataframe(result_df)
             
             if len(result_df.columns) >= 2:
+                numeric_cols = result_df.select_dtypes(include='number').columns.tolist()
+            
+            if len(numeric_cols) >= 1:
                 st.subheader("Chart")
                 fig, ax = plt.subplots()
-                result_df.plot(kind="bar", x=result_df.columns[0], 
-                                y=result_df.columns[1], ax=ax)
+                x_col = result_df.columns[0]
+                y_col = numeric_cols[0]
+                result_df.plot(kind="bar", x=x_col, y=y_col, ax=ax)
                 st.pyplot(fig)
+            else:
+                st.info("No numeric columns to chart — showing table only.")
                 
         except Exception as e:
             st.error(f"SQL Error: {e}")
+
